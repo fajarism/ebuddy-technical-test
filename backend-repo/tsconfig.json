@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/configs/*": ["./configs/*"],
+      "@/controllers/*": ["./controllers/*"],
+      "@/core/*": ["./core/*"],
+      "@/entities/*": ["./entities/*"],
+      "@/middlewares/*": ["./middlewares/*"],
+      "@/repositories/*": ["./repositories/*"],
+      "@/routes/*": ["./routes/*"]
+    },
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true
+  }
+}
